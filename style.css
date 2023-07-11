@@ -35,7 +35,7 @@ body{
     font-size: 11px;
 }
 
-.login-control{
+.login-controls{
     margin-left: 117px;
 }
 
@@ -59,7 +59,6 @@ body{
 }
 
 .sub-btn:hover{
-    background-color: red;
     background-color: #0f2e6c;
     border-color: #021434;
 }
@@ -72,13 +71,13 @@ body{
 }
 
 .right-section{
-    width: 50%;
+    width: 41%;
     float: left;
 }
 
 .main-body{
     background: linear-gradient(white,#D3D8E8);
-    height: 500px;
+    height: 576px;
 }
 
 .image{
@@ -90,5 +89,53 @@ body{
 .para{
     font-weight: bold;
     font-size: 21px;
+    color: #021434;
 }
 
+.form-label{
+    height: 32px;
+    font-size: 14px;
+}
+
+.long-label{
+    width:361px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.birthday{
+    font-weight: bold;
+    color: #808080;
+    font-size: 14px;
+}
+
+.signup-para{
+    font-size: 12px;
+    color: #808080;
+    font-weight: bold;
+}
+
+.signup-label{
+    color: #3b5998;
+
+}
+
+.radio{
+    font-size: 14px;
+}
+
+.btn{
+    width: 190px;
+    height: 38px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #00a32b;
+    color: white;
+    border-color: green
+}
+
+.lower-para{
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+}
